@@ -32,8 +32,8 @@ describe('Gift', () => {
       gift.find('.input-present').simulate('change', { target: {value: present} })
     })
 
-    it('updates the person in `state`', () => {
-      expect(gift.state().person).toEqual(present);
+    it('updates the present in `state`', () => {
+      expect(gift.state().present).toEqual(present);
     })
   })
 })
