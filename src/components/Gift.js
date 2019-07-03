@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, ControlLabel, Button, FormControl } from 'react-bootstrap'; 
+import { Form } from 'react-bootstrap'; 
 
 class Gift extends Component {
   constructor() {
